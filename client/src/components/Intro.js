@@ -6,7 +6,7 @@ function Intro({ setView }) {
         <div className="intro">
             <h3>Welcome to Acronym-inator</h3>
             <p>The purpose of this game is to test your knowledge of company acronyms!</p>
-            <button className="btn btn-primary" onClick={() => setView('play')}>PLAY</button>
+            <button className="btn btn-primary" onClick={() => setView('game')}>PLAY</button>
         </div>
     )
 }
